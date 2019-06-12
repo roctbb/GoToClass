@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-    GeekClass: Изменение проекта "{{$project->name}}"
+    GoToClass: Изменение проекта "{{$project->name}}"
 @endsection
 
 @section('content')

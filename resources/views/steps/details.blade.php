@@ -1,7 +1,7 @@
 @extends('layouts.fluid')
 
 @section('title')
-    GeekClass: "{{$step->course->name}}" - "{{$step->name}}"
+    GoToClass: "{{$step->course->name}}" - "{{$step->name}}"
 @endsection
 
 @section('tabs')
@@ -17,14 +17,14 @@
                     <li class="nav-item">
                         <a class="nav-link" style="padding-top: 10px; padding-bottom: 10px; font-size: 150%;"
                            href="{{url('/insider/courses/'.$step->course->id)}}">
-                            <i class="icon ion-chevron-left"></i> GeekClass </a>
+                            <i class="icon ion-chevron-left"></i> GoToClass </a>
                     </li>
                 @endif
                 @if (\Request::is('open/*'))
                     <li class="nav-item">
                         <a class="nav-link" style="padding-top: 10px; padding-bottom: 10px; font-size: 150%;"
                            href="#">
-                            GeekClass </a>
+                            GoToClass </a>
                     </li>
                 @endif
             </ul>

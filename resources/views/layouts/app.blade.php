@@ -44,7 +44,7 @@
 <body>
 
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <a href="{{url('/')}}" class="navbar-brand" href="#">GeekClass</a>
+    <a href="{{url('/')}}" class="navbar-brand" href="#">GoToClass</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
             aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -61,12 +61,6 @@
             </li>
             <li class="nav-item {{(Request::is('insider/community*') ? 'active' : '') }}">
                 <a class="nav-link" href="{{url('insider/community')}}">Сообщество</a>
-            </li>
-            <li class="nav-item {{(Request::is('insider/projects*') ? 'active' : '') }}">
-                <a class="nav-link" href="{{url('insider/projects')}}">Проекты</a>
-            </li>
-            <li class="nav-item {{(Request::is('insider/events*') ? 'active' : '') }}">
-                <a class="nav-link" href="{{url('insider/events')}}">События</a>
             </li>
         </ul>
 
