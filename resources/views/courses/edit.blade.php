@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-    GeekClass: Изменение курса "{{$course->name}}"
+    GoToClass: Изменение курса "{{$course->name}}"
 @endsection
 
 @section('content')

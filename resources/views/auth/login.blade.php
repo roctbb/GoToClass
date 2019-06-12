@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>GeekClass</title>
+    <title>GoToClass</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
           integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
@@ -17,7 +17,7 @@
         body {
             padding-top: 120px;
             padding-bottom: 40px;
-            background-color: #eee;
+            background-color: white;
         }
 
         .form-signin {
@@ -73,7 +73,7 @@
 <div class="container">
 
     <form method="POST" action="{{ url('/login') }}" class="form-signin">
-        <p align="center"><img class="logo" src="https://storage.geekclass.ru/images/75746a91-66e5-4bdc-8625-eacab77ba5f2.png"/></p>
+        <p align="center"><img class="logo" src="logo.jpg"/></p>
         {{ csrf_field() }}
 
         <label for="inputEmail" class="sr-only">Email</label>

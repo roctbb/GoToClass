@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-    GeekClass: "{{$course->name}}"
+    GoToClass: "{{$course->name}}"
 @endsection
 
 @section('tabs')

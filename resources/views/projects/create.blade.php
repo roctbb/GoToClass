@@ -2,7 +2,7 @@
 @extends('layouts.app')
 
 @section('title')
-    GeekClass: Добавление проекта
+    GoToClass: Добавление проекта
 @endsection
 
 @section('content')

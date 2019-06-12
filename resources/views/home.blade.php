@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-    GeekClass
+    GoToClass
 @endsection
 
 @section('content')

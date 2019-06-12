@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-    GeekClass: Изменение задачи "{{$task->name}}"
+    GoToClass: Изменение задачи "{{$task->name}}"
 @endsection
 
 @section('content')

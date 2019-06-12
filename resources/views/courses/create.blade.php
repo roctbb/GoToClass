@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-    GeekClass: Добавление курса
+    GoToClass: Добавление курса
 @endsection
 
 @section('content')
