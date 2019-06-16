@@ -43,35 +43,7 @@
     <div class="row">
         <div class="col-md-8">
             
-            @if ($course->state=="ended" and $user->role=='teacher')
-                <div class="card-group">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col">
-                                    <h5>Сертификаты</h5>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <ul>
-                                        @foreach($marks as $mark)
-                                            @if ($mark->cert_link!= null and $mark->mark != 'D')
-                                                <li>{{$mark->cert_link}}</li>
-                                            @endif
-                                        @endforeach
-                                    </ul>
-
-                                    <p>
-                                        <a href="{{url('insider/courses/'.$course->id.'/stop')}}" class="btn btn-primary btn-sm">Перевыпуск</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            @endif
+      
 
 
             @foreach($lessons as $key => $lesson)
