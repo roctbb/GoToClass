@@ -46,6 +46,7 @@ class CoursesController extends Controller
         $course = Course::findOrFail($id);
         $students = $course->students;
         $marks = CompletedCourse::where('course_id', $id)->get();
+        $cstudent = null;
 
 
         $temp_steps = collect([]);
@@ -88,8 +89,6 @@ class CoursesController extends Controller
             $steps = $temp_steps;
             $lessons = $course->lessons;
         }
-
-
 
 
         return view('courses.details', compact('course', 'user', 'steps', 'students', 'cstudent', 'lessons', 'marks'));
